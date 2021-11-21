@@ -2,8 +2,8 @@
 .game {
     width: 600px;
     height: 200px;
-    border: 1px solid black;
     margin: auto;
+    background-image: url(img/background.png);
 }
 
 #kangaroo {
@@ -12,7 +12,7 @@
     background-image: url(img/Kangaroo.png);
     background-size: 50px;
     position: relative;
-    top: 164px;
+    top: 153px;
     left: 30px;
 }
 
@@ -22,19 +22,19 @@
 
 @keyframes jump {
     0% {
-        top: 164px;
+        top: 153px;
     }
 
     30% {
-        top: 114px;
+        top: 103px;
     }
 
     70% {
-        top: 114px;
+        top: 103px;
     }
 
     100% {
-        top: 164px;
+        top: 153px;
     }
 }
 
@@ -43,7 +43,7 @@
     width: 20px;
     height: 40px;
     position: relative;
-    top: 126px;
+    top: 114px;
     left: 580px;
     
     background-image: url("img/Cactus.png");
